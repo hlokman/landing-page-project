@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto';
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.hero-image {
+    height: 200px;
+    width: 450px;
+}
