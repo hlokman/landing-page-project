@@ -118,4 +118,17 @@ a {
 
 .box {
     width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info-subtext {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color:#6e6e6e;
+    margin-top: 5px;
+    width: 170px;
 }
