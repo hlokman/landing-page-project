@@ -91,6 +91,10 @@ a {
 }
         /* Top (end) */
         /* Information (start) */
+.information {
+    padding-bottom: 80px;
+}
+
 .info-text {
     display: flex;
     justify-content: center;
@@ -134,3 +138,27 @@ a {
 }
         /* Information (end) */
         /* Quote (start) */
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}   
+
+.quote-text {
+    font-size: 48px;
+    font-weight: 300;
+    color: #1F2937;
+    width: 60%;
+}
+
+.quote-ref {
+    font-weight: bold;
+    font-size: 28px;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
