@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto';
     margin: 0;
+    min-width: 655px;
 }
 
         /* Top (start) */
@@ -14,21 +15,19 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .bottom-part {
     display: flex;
     margin: 100px auto;
     justify-content: space-between;
-    /*border: 2px solid red;
-    width: 100%;*/
+    flex-wrap: wrap;
 }
 
 .hero {
-    /*border: 2px solid green;*/
     margin-bottom: 30px;
     width: 450px;
-    /*flex-shrink: 0;*/
 }
 
 .hero-main {
@@ -46,8 +45,6 @@ body {
     display: flex;
     align-content: center;
     gap: 25px;
-    /*flex-shrink: 0;
-    border: 2px solid yellow;*/
 }
 
 
@@ -57,9 +54,6 @@ body {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    /*flex-shrink: 0; 
-    flex-basis: 545px;
-    border: 2px solid yellow;*/
 }
 
 ul {
@@ -75,7 +69,7 @@ a {
 .hero-image {
     height: 250px;
     width: 550px;
-    /*flex-shrink: 0;*/
+    min-width: 225px;
 }
 
 .hero-button {
@@ -111,6 +105,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info-image {
@@ -172,14 +167,14 @@ a {
 .container {
     background-color: #3882F6 ;
     border-radius: 10px;
-    height: 150px;
+    padding: 48.5px 150px;
     margin-top: 100px;
     margin-bottom: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sign-up-text {
