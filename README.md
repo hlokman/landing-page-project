@@ -15,4 +15,4 @@ I made a good use of the different types of situations encountered in the css-ex
 
 This project allowed me to deeply develop my skills and to get me used to set up a full webpage from scratch, step by step. I had to go back and forth within the .html and .css codes and test several proprieties to get to the desired outcome. 
 
-[Live Demo](https://hlokman.github.io/landing-page-project/)
+[Live Demo](https://hlokman.github.io/landing-page-project/) 
